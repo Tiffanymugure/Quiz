@@ -27,28 +27,25 @@ function tabulateAnswers() {
     }
   }
 
-  var maxscore ==5 = Math.max(c1score,c2score,c3score,c4score,c5score);
+  var maxscore  = Math.max(c1score,c2score,c3score,c4score,c5score);
 
   var answerbox = document.getElementById('answer');
   if (c1score == maxscore) {
-    answerbox.innerHTML = "Excellent.";
+    answerbox.innerHTML = alert("Excellent.");
   }
   if (c2score == maxscore) {
-    answerbox.innerHTML = "Good";
+    answerbox.innerHTML = alert("Good");
   }
   if (c3score == maxscore) {
-    answerbox.innerHTML = "Average.";
+    answerbox.innerHTML = alert("Average.");
   }
   if (c4score == maxscore) {
-    answerbox.innerHTML = "Below Average.";
+    answerbox.innerHTML = alert("Below Average.");
   }
 }
-if (c5score == maxscore) {
-  answerbox.innerHTML = "Poor.";
+  if (c5score == maxscore) {
+    answerbox.innerHTML = alert("Poor.");
 }
-
-}
-
 
 function resetAnswer() {
   var answerbox = document.getElementById('answer');
