@@ -23,25 +23,29 @@ function tabulateAnswers() {
       if (choices[i].value == 'c5') {
         c5score = c4score + 1;
       }
-      
+
     }
   }
 
-  var maxscore = Math.max(c1score,c2score,c3score,c4score,c5score);
+  var maxscore ==5 = Math.max(c1score,c2score,c3score,c4score,c5score);
 
   var answerbox = document.getElementById('answer');
   if (c1score == maxscore) {
-    answerbox.innerHTML = ".";
+    answerbox.innerHTML = "Excellent.";
   }
   if (c2score == maxscore) {
-    answerbox.innerHTML = "";
+    answerbox.innerHTML = "Good";
   }
   if (c3score == maxscore) {
-    answerbox.innerHTML = ".";
+    answerbox.innerHTML = "Average.";
   }
   if (c4score == maxscore) {
-    answerbox.innerHTML = ".";
+    answerbox.innerHTML = "Below Average.";
   }
+}
+if (c5score == maxscore) {
+  answerbox.innerHTML = "Poor.";
+}
 
 }
 
