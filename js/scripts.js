@@ -31,20 +31,20 @@ function tabulateAnswers() {
 
   var answerbox = document.getElementById('answer');
   if (c1score == maxscore) {
-    answerbox.innerHTML = alert("Excellent.");
+    answerbox.innerHTML = alert("5-Excellent.");
   }
   if (c2score == maxscore) {
-    answerbox.innerHTML = alert("Good");
+    answerbox.innerHTML = alert("4-Good");
   }
   if (c3score == maxscore) {
-    answerbox.innerHTML = alert("Average.");
+    answerbox.innerHTML = alert("3-Average.");
   }
   if (c4score == maxscore) {
-    answerbox.innerHTML = alert("Below Average.");
+    answerbox.innerHTML = alert("2-Below Average.");
   }
 }
   if (c5score == maxscore) {
-    answerbox.innerHTML = alert("Poor.");
+    answerbox.innerHTML = alert("1-Poor.");
 }
 
 function resetAnswer() {
