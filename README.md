@@ -18,9 +18,13 @@ There are no known bugs.
 
 ## Technologies Used
 HTML
+
 CSS
+
 Bootstrap
+
 CDN links
+
 Jquery
 
 ## Support and contact details
